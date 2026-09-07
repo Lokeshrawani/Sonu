@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sariputra Tour & Holidays - Premium buses, tempo travellers and Innova rentals from Bodh Gaya, Bihar.">
+  <title>Sariputra Tour & Holidays | Bodh Gaya</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--red:#a61b25;--red2:#d52b34;--cream:#fffaf4;--ink:#211b1b;--muted:#6e6664;--line:#eadfd8;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",sans-serif;color:var(--ink);background:var(--cream)}
+    a{text-decoration:none;color:inherit}.container{width:min(1160px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,250,244,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;gap:11px;align-items:center}
+    .brand-mark{width:43px;height:43px;border-radius:50%;background:var(--red);color:white;display:grid;place-items:center;font-family:serif;font-size:20px;box-shadow:0 7px 20px #a61b2528}
+    .brand strong{display:block;font-family:"Playfair Display";font-size:19px}.brand span{font-size:11px;color:var(--muted)}
+    .links{display:flex;gap:28px;font-weight:600;font-size:14px}.links a:hover{color:var(--red)}
+    .nav-cta{padding:11px 17px;background:var(--red);color:white;border-radius:999px;font-weight:700;font-size:14px}
+    .hero{position:relative;overflow:hidden;padding:76px 0 68px;background:radial-gradient(circle at 80% 20%,#f3d6c7 0,transparent 31%),linear-gradient(135deg,#fffaf4,#f7e9df)}
+    .hero:after{content:"☸";position:absolute;right:3%;bottom:-50px;font-size:280px;color:#a61b250b;line-height:1}
+    .hero-grid{display:grid;grid-template-columns:1fr .9fr;gap:54px;align-items:center;position:relative;z-index:1}
+    .eyebrow{display:inline-flex;gap:8px;align-items:center;color:var(--red);font-weight:800;font-size:13px;text-transform:uppercase;letter-spacing:1.2px}
+    h1{font-family:"Playfair Display";font-size:clamp(45px,6vw,74px);line-height:1.02;margin:14px 0 18px;max-width:650px}
+    h1 em{color:var(--red);font-style:normal}.hero p{font-size:18px;line-height:1.7;color:var(--muted);max-width:610px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}.btn{padding:14px 20px;border-radius:10px;font-weight:800;border:1px solid transparent}.primary{background:var(--red);color:#fff}.secondary{border-color:#d8c8bf;background:#fff}
+    .quick{display:flex;gap:20px;flex-wrap:wrap;color:var(--muted);font-size:13px}.quick b{color:var(--ink)}
+    .hero-card{background:#fff;border:8px solid #fff;border-radius:28px;box-shadow:0 24px 70px #5a2a1c1f;overflow:hidden;transform:rotate(1.2deg)}
+    .hero-card img{width:100%;display:block;aspect-ratio:4/5;object-fit:cover;object-position:center}.photo-label{padding:15px 17px;display:flex;justify-content:space-between;align-items:center}.photo-label b{font-size:15px}.badge{font-size:11px;background:#fbe8e6;color:var(--red);padding:6px 9px;border-radius:999px;font-weight:800}
+    section{padding:82px 0}.section-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:30px}.section-head h2{font-family:"Playfair Display";font-size:40px;margin:0}.section-head p{max-width:510px;color:var(--muted);line-height:1.6;margin:0}
+    .fleet{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 8px 28px #54271908}
+    .card-img{height:190px;background:linear-gradient(135deg,#eee3dc,#faf7f3);display:grid;place-items:center;color:#8f827c;font-weight:800;overflow:hidden}.card-img img{width:100%;height:100%;object-fit:cover}.placeholder{font-size:13px;text-align:center;padding:20px}.card-body{padding:18px}.card-body h3{margin:0 0 7px;font-size:18px}.card-body p{margin:0 0 15px;color:var(--muted);font-size:13px;line-height:1.5}.pill{display:inline-block;background:#f7eeea;color:var(--red);padding:6px 9px;border-radius:8px;font-size:11px;font-weight:800}
+    .why{background:#251d1c;color:#fff}.why .section-head p{color:#cfc4c0}.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.why-card{border:1px solid #ffffff20;padding:25px;border-radius:16px;background:#ffffff08}.icon{font-size:28px}.why-card h3{margin:13px 0 7px}.why-card p{color:#cfc4c0;line-height:1.6;font-size:14px}
+    .destinations{display:grid;grid-template-columns:1.2fr .8fr;gap:22px}.destination{min-height:220px;border-radius:20px;padding:25px;display:flex;flex-direction:column;justify-content:end;color:white;background:linear-gradient(0deg,#1f1514c9,transparent),linear-gradient(135deg,#8c4637,#dfad8d)}.destination h3{font-family:"Playfair Display";font-size:30px;margin:0 0 5px}.destination p{margin:0;color:#fff9f5}.mini-dests{display:grid;grid-template-columns:1fr 1fr;gap:18px}.mini{min-height:101px;border-radius:18px;padding:18px;color:white;display:flex;align-items:end;background:linear-gradient(0deg,#241716d9,transparent),linear-gradient(135deg,#bc725d,#e9c6b3);font-weight:800}
+    .contact{background:#f3e6dd}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px;align-items:start}.contact-info h2{font-family:"Playfair Display";font-size:42px;margin:0 0 14px}.contact-info p{color:var(--muted);line-height:1.7}.contact-box{display:grid;gap:10px;margin-top:24px}.contact-box a{font-weight:800}.form{background:#fff;padding:25px;border-radius:20px;border:1px solid var(--line);box-shadow:0 12px 35px #5427190c}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.form input,.form select,.form textarea{width:100%;border:1px solid #ddd0c9;border-radius:10px;padding:13px;font:inherit;background:#fff}.form textarea{min-height:110px;resize:vertical;margin-top:13px}.full{grid-column:1/-1}.form button{width:100%;border:0;margin-top:13px;cursor:pointer}
+    footer{background:#1c1514;color:#d9cfca;padding:27px 0}.footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px}.wa{position:fixed;right:20px;bottom:20px;background:#168c4b;color:#fff;border-radius:999px;padding:15px 18px;font-weight:800;box-shadow:0 10px 30px #168c4b44;z-index:30}
+    @media(max-width:900px){.links{display:none}.hero-grid,.contact-grid,.destinations{grid-template-columns:1fr}.fleet{grid-template-columns:1fr 1fr}.hero{padding-top:50px}.hero-card{max-width:650px;margin:auto}.why-grid{grid-template-columns:1fr}}
+    @media(max-width:560px){nav{height:68px}.fleet{grid-template-columns:1fr}.section-head{display:block}.section-head h2{font-size:34px;margin-bottom:12px}.hero h1{font-size:48px}.form-grid{grid-template-columns:1fr}.full{grid-column:auto}.mini-dests{grid-template-columns:1fr 1fr}.wa{right:12px;bottom:12px}}
+  </style>
+</head>
+<body>
+<header><div class="container"><nav>
+  <a class="brand" href="#"><div class="brand-mark">☸</div><div><strong>Sariputra</strong><span>TOUR & HOLIDAYS • BODH GAYA</span></div></a>
+  <div class="links"><a href="#fleet">Fleet</a><a href="#why">Why Us</a><a href="#destinations">Destinations</a><a href="#contact">Contact</a></div>
+  <a class="nav-cta" href="tel:+919939995360">Call Now</a>
+</nav></div></header>
+
+<main>
+<section class="hero"><div class="container hero-grid">
+  <div>
+    <div class="eyebrow">☸ Bodh Gaya • Bihar • All India</div>
+    <h1>Travel together.<br><em>Travel comfortably.</em></h1>
+    <p>Premium buses, tempo travellers and Innova rentals for family trips, pilgrimages, corporate travel and group tours from Bodh Gaya.</p>
+    <div class="actions"><a class="btn primary" href="https://wa.me/919939995360?text=Hello%20Sariputra%20Tour%20%26%20Holidays,%20I%20want%20a%20travel%20quotation.">WhatsApp Enquiry</a><a class="btn secondary" href="#contact">Get a Quote</a></div>
+    <div class="quick"><span>📞 <b>+91 99399 95360</b></span><span>📍 <b>Bodh Gaya, Bihar</b></span><span>✓ Group Tours</span></div>
+  </div>
+  <div class="hero-card"><img src="assets/tourist-bus.jpg" alt="Sariputra Tour & Holidays tourist bus"><div class="photo-label"><b>Premium Tourist Bus</b><span class="badge">Group Travel</span></div></div>
+</div></section>
+
+<section id="fleet"><div class="container">
+  <div class="section-head"><h2>Our Fleet</h2><p>Choose the right vehicle for your group. Send us your dates and destination and we will help with the best option.</p></div>
+  <div class="fleet">
+    <article class="card"><div class="card-img"><img src="assets/tourist-bus.jpg" alt="49 Seater Premium Bus"></div><div class="card-body"><h3>49 Seater Premium Bus</h3><p>Ideal for school groups, pilgrimages, weddings and large tours.</p><span class="pill">49 SEATS</span></div></article>
+    <article class="card"><div class="card-img"><div class="placeholder">📷<br>Innova Crysta photo<br>can be added here</div></div><div class="card-body"><h3>7 Seater Innova Crysta</h3><p>Comfortable option for families, small groups and long-distance travel.</p><span class="pill">7 SEATS</span></div></article>
+    <article class="card"><div class="card-img"><div class="placeholder">📷<br>17 Seater photo<br>can be added here</div></div><div class="card-body"><h3>17 Seater Tempo Traveller</h3><p>Spacious group travel with convenient seating for mid-size groups.</p><span class="pill">17 SEATS</span></div></article>
+    <article class="card"><div class="card-img"><div class="placeholder">📷<br>26 Seater photo<br>can be added here</div></div><div class="card-body"><h3>26 Seater Tempo Traveller</h3><p>Great for larger families, pilgrimage groups and tour packages.</p><span class="pill">26 SEATS</span></div></article>
+  </div>
+</div></section>
+
+<section class="why" id="why"><div class="container">
+  <div class="section-head"><h2>Why Sariputra?</h2><p>Simple booking, comfortable vehicles and support for your journey from planning to return.</p></div>
+  <div class="why-grid">
+    <div class="why-card"><div class="icon">🚌</div><h3>Multiple Vehicle Options</h3><p>From 7-seater family travel to 49-seater group tours, choose a vehicle that fits your group.</p></div>
+    <div class="why-card"><div class="icon">🗺️</div><h3>All-India Travel</h3><p>Plan journeys across Bihar and destinations throughout India with flexible trip requirements.</p></div>
+    <div class="why-card"><div class="icon">💬</div><h3>Quick Enquiry</h3><p>Tell us your destination, date and group size on WhatsApp for a faster quotation.</p></div>
+  </div>
+</div></section>
+
+<section id="destinations"><div class="container">
+  <div class="section-head"><h2>Popular Travel Regions</h2><p>Build your own itinerary or ask us about a customized group tour.</p></div>
+  <div class="destinations">
+    <div class="destination"><h3>Bodh Gaya & Buddhist Circuit</h3><p>Bodh Gaya • Rajgir • Nalanda • Vaishali • Sarnath • Kushinagar</p></div>
+    <div class="mini-dests"><div class="mini">Bihar & Jharkhand</div><div class="mini">Uttar Pradesh</div><div class="mini">Rajasthan</div><div class="mini">Pan-India Tours</div></div>
+  </div>
+</div></section>
+
+<section class="contact" id="contact"><div class="container contact-grid">
+  <div class="contact-info"><div class="eyebrow">PLAN YOUR JOURNEY</div><h2>Let's plan your next trip.</h2><p>Share your travel details and we will get back to you with vehicle and trip options.</p>
+    <div class="contact-box"><div>👤 <b>Sonu Singh</b></div><div>📞 <a href="tel:+919939995360">+91 99399 95360</a></div><div>💬 <a href="https://wa.me/919939995360">WhatsApp Chat</a></div><div>📍 Bodh Gaya, Bihar</div></div>
+  </div>
+  <form class="form" onsubmit="sendWhatsApp(event)">
+    <div class="form-grid"><input id="name" placeholder="Your name" required><input id="phone" placeholder="Mobile number" required><input id="date" type="date"><select id="vehicle"><option>Any vehicle</option><option>7 Seater Innova Crysta</option><option>17 Seater Tempo Traveller</option><option>26 Seater Tempo Traveller</option><option>49 Seater Premium Bus</option></select><input class="full" id="destination" placeholder="Destination / route"><textarea class="full" id="message" placeholder="Tell us about your trip (group size, pickup, number of days...)"></textarea></div>
+    <button class="btn primary" type="submit">Send Enquiry on WhatsApp</button>
+  </form>
+</div></section>
+</main>
+
+<a class="wa" href="https://wa.me/919939995360?text=Hello%20Sariputra%20Tour%20%26%20Holidays,%20I%20want%20to%20book%20a%20vehicle.">💬 WhatsApp</a>
+<footer><div class="container footer"><span>© 2026 Sariputra Tour & Holidays. All rights reserved.</span><span>Bodh Gaya, Bihar • +91 99399 95360</span></div></footer>
+<script>
+function sendWhatsApp(e){
+  e.preventDefault();
+  const n=document.getElementById('name').value,p=document.getElementById('phone').value,d=document.getElementById('date').value,
+  v=document.getElementById('vehicle').value,dest=document.getElementById('destination').value,m=document.getElementById('message').value;
+  const text=`Hello Sariputra Tour & Holidays,%0A%0AName: ${encodeURIComponent(n)}%0AMobile: ${encodeURIComponent(p)}%0ADate: ${encodeURIComponent(d||'Not decided')}%0AVehicle: ${encodeURIComponent(v)}%0ADestination: ${encodeURIComponent(dest)}%0ARequirements: ${encodeURIComponent(m)}`;
+  window.open('https://wa.me/919939995360?text='+text,'_blank');
+}
+</script>
+
+<!-- AI Trip Enquiry Assistant -->
+<div id="aiAssistant" class="ai-assistant" aria-live="polite">
+  <button class="ai-toggle" id="aiToggle" type="button">🤖 AI Trip Assistant</button>
+  <div class="ai-panel" id="aiPanel" hidden>
+    <div class="ai-head"><strong>AI Trip Enquiry</strong><button id="aiClose" type="button" aria-label="Close">×</button></div>
+    <div id="aiMessages" class="ai-messages">
+      <div class="ai-msg bot">Namaste! 🙏 I can help prepare your travel enquiry. Tell me your destination and group size.</div>
+    </div>
+    <div class="ai-quick">
+      <button type="button" data-ai="Bodh Gaya to Varanasi for 4 people">Bodh Gaya → Varanasi</button>
+      <button type="button" data-ai="Gangtok trip for 8 people">Gangtok trip</button>
+      <button type="button" data-ai="Need a 26 seater bus for 20 people">26-seater</button>
+    </div>
+    <form id="aiForm" class="ai-form">
+      <input id="aiInput" autocomplete="off" placeholder="Example: 10 people, Bodh Gaya to Varanasi..." required>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+<style>
+.ai-assistant{position:fixed;right:20px;bottom:80px;z-index:10000;font-family:inherit}.ai-toggle{border:0;border-radius:999px;padding:13px 18px;font-weight:700;cursor:pointer;box-shadow:0 8px 28px rgba(0,0,0,.2)}.ai-panel{width:350px;max-width:calc(100vw - 28px);height:470px;background:#fff;border-radius:18px;box-shadow:0 18px 60px rgba(0,0,0,.25);overflow:hidden;border:1px solid #eee}.ai-head{display:flex;justify-content:space-between;align-items:center;padding:15px 16px;border-bottom:1px solid #eee}.ai-head button{border:0;background:none;font-size:24px;cursor:pointer}.ai-messages{height:300px;overflow:auto;padding:14px}.ai-msg{padding:10px 12px;border-radius:14px;margin:7px 0;line-height:1.4;font-size:14px;white-space:pre-wrap}.ai-msg.bot{background:#f1f3f5;margin-right:25px}.ai-msg.user{background:#e8f5e9;margin-left:25px}.ai-quick{display:flex;gap:6px;overflow:auto;padding:0 12px 10px}.ai-quick button{white-space:nowrap;border:1px solid #ddd;background:#fff;border-radius:999px;padding:7px 9px;font-size:12px;cursor:pointer}.ai-form{display:flex;gap:7px;padding:10px;border-top:1px solid #eee}.ai-form input{min-width:0;flex:1;padding:11px;border:1px solid #ddd;border-radius:10px}.ai-form button{border:0;border-radius:10px;padding:0 14px;cursor:pointer;font-weight:700}.ai-typing{opacity:.7}.ai-wa{display:inline-block;margin-top:8px;font-weight:700;text-decoration:none}.ai-note{font-size:11px;opacity:.65;margin-top:6px}@media(max-width:480px){.ai-assistant{right:10px;bottom:70px}.ai-panel{width:calc(100vw - 20px)}}
+</style>
+<script>
+(function(){
+ const toggle=document.getElementById('aiToggle'), panel=document.getElementById('aiPanel'), close=document.getElementById('aiClose');
+ const messages=document.getElementById('aiMessages'), form=document.getElementById('aiForm'), input=document.getElementById('aiInput');
+ let state={destination:'',people:'',vehicle:'',date:'',days:''};
+ toggle.onclick=()=>{panel.hidden=!panel.hidden;if(!panel.hidden)input.focus()}; close.onclick=()=>panel.hidden=true;
+ function add(text,who='bot'){const d=document.createElement('div');d.className='ai-msg '+who;d.textContent=text;messages.appendChild(d);messages.scrollTop=messages.scrollHeight;return d}
+ function detect(text){
+   const t=text.toLowerCase(); const pm=t.match(/\b(\d+)\s*(people|person|passengers|pax|members|seats)?\b/);
+   if(pm)state.people=pm[1];
+   const days=t.match(/\b(\d+)\s*(day|days|night|nights)\b/); if(days)state.days=days[0];
+   if(/7.?seater|innova|small car/i.test(text))state.vehicle='7 Seater Innova Crysta';
+   else if(/17.?seater|tempo/i.test(text))state.vehicle='17 Seater Tempo Traveller';
+   else if(/26.?seater/i.test(text))state.vehicle='26 Seater Tempo Traveller';
+   else if(/49.?seater|bus/i.test(text))state.vehicle='49 Seater Premium Bus';
+   if(/gangtok/i.test(text))state.destination='Gangtok, Sikkim'; else if(/varanasi|kashi/i.test(text))state.destination='Varanasi'; else if(/bodh.?gaya/i.test(text))state.destination='Bodh Gaya'; else if(/taj|agra/i.test(text))state.destination='Agra / Taj Mahal';
+ }
+ function reply(text){detect(text); if(!state.destination)return 'Great! What is your destination or route?'; if(!state.people)return 'Got it. How many people are travelling?'; if(!state.vehicle)return 'Thanks. Which vehicle do you prefer: 7-seater, 17-seater, 26-seater or 49-seater?';
+   const msg=`Hello Sariputra Tour & Holidays!\n\nAI Enquiry\nDestination: ${state.destination}\nPassengers: ${state.people}\nVehicle: ${state.vehicle}\nTrip duration: ${state.days||'Not decided'}\nDate: ${state.date||'Not decided'}\n\nPlease share availability and quotation.`;
+   const a=document.createElement('a');a.className='ai-wa';a.href='https://wa.me/919939995360?text='+encodeURIComponent(msg);a.target='_blank';a.rel='noopener';a.textContent='📲 Send complete enquiry on WhatsApp';
+   const d=document.createElement('div');d.className='ai-msg bot';d.append('Perfect! I prepared your enquiry. ');d.appendChild(a);messages.appendChild(d);messages.scrollTop=messages.scrollHeight;
+   return null;
+ }
+ form.onsubmit=(e)=>{e.preventDefault();const text=input.value.trim();if(!text)return;add(text,'user');input.value='';const typing=add('Thinking…','bot');setTimeout(()=>{typing.remove();const r=reply(text);if(r)add(r)},350)};
+ document.querySelectorAll('[data-ai]').forEach(b=>b.onclick=()=>{input.value=b.dataset.ai;form.requestSubmit()});
+})();
+</script>
+</body></html>

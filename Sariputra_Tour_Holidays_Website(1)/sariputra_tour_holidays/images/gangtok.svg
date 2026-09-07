@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650">
+<rect width="1000" height="650" fill="#bde3ff"/><path d="M0 390 L180 220 330 390 520 160 720 390 900 200 1000 310 V650 H0Z" fill="#6289a1"/><path d="M330 390 L520 160 720 390Z" fill="#f8fafc"/>
+<path d="M0 470 Q250 350 500 470 T1000 460 V650 H0Z" fill="#6b8f5c"/>
+<rect x="390" y="390" width="220" height="80" fill="#e5e7eb"/><path d="M430 390 V330 H570 V390" fill="#c58a48"/><path d="M460 330 L500 280 L540 330" fill="#b71c1c"/>
+<text x="500" y="585" text-anchor="middle" font-family="Arial" font-size="38" font-weight="700" fill="#1f2937">GANGTOK • SIKKIM</text></svg>

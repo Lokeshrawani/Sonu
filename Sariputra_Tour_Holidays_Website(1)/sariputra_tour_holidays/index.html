@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sariputra Tour & Holidays - Tourist vehicles, Force Urbania, pilgrimage tours and group travel from Bodh Gaya, Bihar.">
+<meta name="theme-color" content="#8f1d2c">
+<title>Sariputra Tour & Holidays | Bodh Gaya</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--red:#971f2b;--red2:#c92d3a;--gold:#c8953e;--cream:#fffaf5;--ink:#20191a;--muted:#6f6765;--line:#eadfd7;--white:#fff;--shadow:0 18px 50px rgba(42,24,20,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+a{text-decoration:none;color:inherit}.container{width:min(1160px,92%);margin:auto}
+header{position:sticky;top:0;z-index:100;background:rgba(255,250,245,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;gap:11px;align-items:center}.brand-mark{width:43px;height:43px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font-family:serif;font-size:20px;box-shadow:0 7px 20px #971f2b30}.brand strong{display:block;font-family:"Playfair Display";font-size:19px}.brand span{display:block;font-size:10px;color:var(--muted);letter-spacing:.4px}.links{display:flex;gap:25px;font-weight:600;font-size:14px}.links a:hover{color:var(--red)}.nav-cta{padding:10px 17px;background:var(--red);color:#fff;border-radius:999px;font-weight:700;font-size:14px}
+.hero{position:relative;overflow:hidden;padding:72px 0 78px;background:linear-gradient(135deg, rgba(255,250,245,0.92), rgba(247,233,223,0.88)), url('https://images.unsplash.com/photo-1590077428563-f5e5627f4261?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;}
+.hero-grid{display:grid;grid-template-columns:1.03fr .97fr;gap:42px;align-items:center}.eyebrow{font-size:12px;font-weight:800;letter-spacing:1.6px;color:var(--red);text-transform:uppercase}.hero h1{font-family:"Playfair Display";font-size:clamp(42px,6vw,70px);line-height:1.02;margin:13px 0 18px}.hero h1 em{color:var(--red);font-style:normal}.hero p{font-size:18px;color:var(--muted);max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:25px 0}.btn{display:inline-flex;align-items:center;justify-content:center;border:0;cursor:pointer;padding:13px 19px;border-radius:10px;font-weight:800;font-size:14px}.primary{background:var(--red);color:#fff;box-shadow:0 9px 24px #971f2b2e}.secondary{background:#fff;border:1px solid var(--line)}.whatsapp{background:#168c4a;color:#fff}.quick{display:flex;gap:15px;flex-wrap:wrap;color:var(--muted);font-size:13px}
+.hero-card{position:relative;border-radius:24px;overflow:hidden;box-shadow:var(--shadow);background:#ddd;min-height:420px}.hero-card img{width:100%;height:100%;min-height:420px;object-fit:cover;display:block}.photo-label{position:absolute;left:18px;right:18px;bottom:18px;background:#ffffffeb;padding:13px 15px;border-radius:14px;display:flex;justify-content:space-between;gap:10px;align-items:center}.badge{background:#f6e3bf;color:#74501c;padding:5px 9px;border-radius:999px;font-size:11px;font-weight:800}
+section{padding:72px 0}.section-head{display:flex;justify-content:space-between;gap:25px;align-items:end;margin-bottom:28px}.section-head h2{font-family:"Playfair Display";font-size:38px;margin:0}.section-head p{max-width:600px;color:var(--muted);margin:0}
+.fleet{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 8px 25px rgba(50,30,25,.06)}.card-img{height:205px;background:#eee;overflow:hidden}.card-img img{width:100%;height:100%;object-fit:cover;display:block}.card-body{padding:17px}.card h3{margin:0 0 7px;font-size:18px}.card p{margin:0 0 12px;color:var(--muted);font-size:13px}.pill{display:inline-block;background:#f7eee8;color:var(--red);font-size:11px;font-weight:800;padding:5px 9px;border-radius:999px}
+.why{position:relative;background:linear-gradient(135deg, rgba(255,255,255,0.94), rgba(255,250,245,0.94)), url('https://images.unsplash.com/photo-1609946727707-1647e307739e?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.why-card{padding:25px;border:1px solid var(--line);border-radius:18px;background:rgba(255,250,245,0.9)}.icon{font-size:28px}.why-card h3{margin:10px 0 5px}.why-card p{color:var(--muted);font-size:14px;margin:0}
+.destinations{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}.destination-card{position:relative;min-height:330px;border-radius:20px;overflow:hidden;color:#fff;background:#333}.destination-card img{width:100%;height:100%;object-fit:cover;display:block}.destination-card:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 35%,rgba(0,0,0,.78))}.destination-copy{position:absolute;z-index:2;left:22px;right:22px;bottom:20px}.destination-copy h3{font-family:"Playfair Display";font-size:29px;margin:0 0 5px}.destination-copy p{margin:0;color:#eee;font-size:13px}.mini-dests{display:grid;grid-template-columns:1fr 1fr;gap:14px}.mini{min-height:158px;border-radius:17px;overflow:hidden;position:relative;color:#fff;font-weight:800;display:flex;align-items:end;padding:17px;background:#555}.mini img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}.mini:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 25%,rgba(0,0,0,.75))}.mini span{position:relative;z-index:1}
+.contact{background:linear-gradient(135deg, rgba(247,233,223,0.92), rgba(255,250,245,0.92)), url('https://images.unsplash.com/photo-1590077428563-f5e5627f4261?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px;align-items:start}.contact-info h2{font-family:"Playfair Display";font-size:40px;line-height:1.1;margin:10px 0}.contact-info>p{color:var(--muted)}.contact-box{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;display:grid;gap:8px;margin-top:20px}.contact-box a{color:var(--red);font-weight:700}
+.social-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin-top:18px}.social-btn{background:#fff;border:1px solid var(--line);padding:8px 12px;border-radius:10px;font-size:12px;font-weight:600;display:flex;align-items:center;gap:6px;transition:all .2s}.social-btn:hover{border-color:var(--red);color:var(--red)}
+.form{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:var(--shadow)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.form input,.form select,.form textarea{width:100%;border:1px solid #ddd0c7;border-radius:10px;padding:13px;font:inherit;background:#fff}.form textarea{min-height:115px;resize:vertical}.full{grid-column:1/-1}.form-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.form-note{font-size:12px;color:var(--muted);margin-top:10px}
+.ai{position:fixed;right:18px;bottom:18px;z-index:90}.ai-toggle{border:0;border-radius:999px;padding:13px 18px;background:var(--red);color:#fff;font-weight:800;cursor:pointer;box-shadow:0 12px 30px #971f2b42}.ai-panel{display:none;position:absolute;right:0;bottom:58px;width:min(350px,calc(100vw - 28px));background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 18px 55px #0002;overflow:hidden}.ai-panel.open{display:block}.ai-head{padding:15px;background:var(--red);color:#fff}.ai-head strong{display:block}.ai-head span{font-size:12px;opacity:.9}.ai-body{padding:15px}.ai-body label{font-size:12px;font-weight:700;display:block;margin:8px 0 4px}.ai-body input,.ai-body select{width:100%;padding:10px;border:1px solid #ddd0c7;border-radius:9px}.ai-result{margin-top:12px;background:#faf5ef;border-radius:10px;padding:10px;font-size:12px;color:var(--muted);display:none}
+footer{padding:32px 0;background:#241a1a;color:#ddd}.footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px}.footer-social{display:flex;gap:12px;flex-wrap:wrap;margin-top:15px;padding-top:15px;border-top:1px solid #3d2f2f;font-size:12px;color:#bbb}.footer-social a{color:#e6c387}.credit{font-size:11px;color:#aaa;margin-top:15px}.credit a{text-decoration:underline}
+.wa{position:fixed;left:18px;bottom:18px;z-index:80;background:#168c4a;color:#fff;padding:12px 16px;border-radius:999px;font-weight:800;box-shadow:0 10px 28px #168c4a44}
+@media(max-width:900px){.hero-grid,.contact-grid,.destinations{grid-template-columns:1fr}.why-grid{grid-template-columns:1fr}.hero-card{min-height:330px}.hero-card img{min-height:330px}}
+@media(max-width:600px){.links{display:none}.form-grid{grid-template-columns:1fr}.full{grid-column:auto}.section-head{display:block}.section-head h2{margin-bottom:8px}.mini-dests{grid-template-columns:1fr 1fr}.hero{padding-top:40px}.hero h1{font-size:46px}.wa{left:12px;bottom:12px}.ai{right:12px;bottom:70px}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<nav>
+<a class="brand" href="#">
+<div class="brand-mark">☸</div>
+<div><strong>Sariputra</strong><span>TOUR &amp; HOLIDAYS • BODH GAYA</span></div>
+</a>
+<div class="links">
+<a href="#fleet">Fleet</a><a href="#why">Why Us</a><a href="#destinations">Destinations</a><a href="#contact">Enquiry</a>
+</div>
+<a class="nav-cta" href="tel:+919939995360">Call Now</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="hero">
+<div class="container hero-grid">
+<div>
+<div class="eyebrow">☸ Bodh Gaya • Bihar • All India</div>
+<h1>Travel together.<br><em>Travel comfortably.</em></h1>
+<p>Premium Force Urbania, mini buses, tempo travellers and family vehicles for pilgrimages, family trips, weddings, corporate travel and group tours from Bodh Gaya.</p>
+<div class="actions">
+<a class="btn primary" href="#contact">Get a Travel Quote</a>
+<a class="btn whatsapp" href="https://wa.me/919939995360?text=Hello%20Sariputra%20Tour%20%26%20Holidays%2C%20I%20want%20a%20travel%20quotation." target="_blank" rel="noopener">WhatsApp Enquiry</a>
+</div>
+<div class="quick">
+<span>📞 <b>+91 99399 95360</b> / <b>+91 90656 71630</b></span>
+<span>📧 <b>sariputratours@gmail.com</b></span>
+<span>📍 <b>Bodh Gaya, Bihar</b></span>
+</div>
+</div>
+<div class="hero-card">
+<img src="https://images.unsplash.com/photo-1506015391300-4802dc74de2e?q=80&w=1600&auto=format&fit=crop" alt="Tourist vehicle travelling through scenic mountains" loading="eager">
+<div class="photo-label"><b>Comfortable Group Travel</b><span class="badge">Bihar • India</span></div>
+</div>
+</div>
+</section>
+
+<section id="fleet">
+<div class="container">
+<div class="section-head"><div><div class="eyebrow">OUR VEHICLES</div><h2>Choose your travel vehicle</h2></div><p>Tell us your group size, route and dates. We will help you choose the right vehicle.</p></div>
+<div class="fleet">
+<article class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1600&auto=format&fit=crop" alt="7 seater family travel vehicle" loading="lazy"></div><div class="card-body"><h3>7 Seater Family Vehicle</h3><p>Comfortable choice for families and small groups.</p><span class="pill">7 SEATS</span></div></article>
+<article class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1600&auto=format&fit=crop" alt="17 seater Force Urbania luxury van" loading="lazy"></div><div class="card-body"><h3>17 Seater Force Urbania</h3><p>Luxury travel experience with plush reclining seats and space.</p><span class="pill">17 SEATS • URBANIA</span></div></article>
+<article class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1600&auto=format&fit=crop" alt="17 seater tempo traveller" loading="lazy"></div><div class="card-body"><h3>17 Seater Tempo Traveller</h3><p>Spacious option for mid-size group travel.</p><span class="pill">17 SEATS</span></div></article>
+<article class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=1600&auto=format&fit=crop" alt="35 seater mini bus" loading="lazy"></div><div class="card-body"><h3>35 Seater Mini Bus</h3><p>Ideal medium capacity tourist bus for tours and pilgrimages.</p><span class="pill">35 SEATS</span></div></article>
+<article class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1600&auto=format&fit=crop" alt="45 seater tourist bus" loading="lazy"></div><div class="card-body"><h3>45 Seater Tourist Bus</h3><p>Comfortable long-distance coach for large tourist groups.</p><span class="pill">45 SEATS</span></div></article>
+<article class="card"><div class="card-img"><img src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=1600&auto=format&fit=crop" alt="49 seater premium tourist bus" loading="lazy"></div><div class="card-body"><h3>49 Seater Premium Bus</h3><p>Large-group travel for tours, schools and events.</p><span class="pill">49 SEATS</span></div></article>
+</div>
+</div>
+</section>
+
+<section class="why" id="why">
+<div class="container">
+<div class="section-head"><div><div class="eyebrow">WHY SARIPUTRA</div><h2>Simple booking. Better journeys.</h2></div><p>Local support from Bodh Gaya with flexible vehicle options for journeys across India.</p></div>
+<div class="why-grid">
+<div class="why-card"><div class="icon">🚌</div><h3>Multiple Vehicles</h3><p>From 7-seater family cars, 17-seater Force Urbania, to 35, 45 &amp; 49-seater coaches.</p></div>
+<div class="why-card"><div class="icon">🗺️</div><h3>All-India Travel</h3><p>Plan Bihar, Jharkhand, Uttar Pradesh, Rajasthan and other destinations.</p></div>
+<div class="why-card"><div class="icon">💬</div><h3>Quick Enquiry</h3><p>Send your travel requirements directly to WhatsApp for faster response.</p></div>
+</div>
+</div>
+</section>
+
+<section id="destinations">
+<div class="container">
+<div class="section-head"><div><div class="eyebrow">POPULAR DESTINATIONS</div><h2>Places worth travelling to</h2></div><p>Ask us for a customized route, pilgrimage circuit or group tour quotation.</p></div>
+<div class="destinations">
+<div class="destination-card">
+<img src="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?q=80&w=1600&auto=format&fit=crop" alt="Varanasi ghats at night" loading="lazy">
+<div class="destination-copy"><h3>Varanasi &amp; Buddhist Circuit</h3><p>Varanasi • Sarnath • Kushinagar • Bodh Gaya</p></div>
+</div>
+<div class="mini-dests">
+<div class="mini"><img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1600&auto=format&fit=crop" alt="Gangtok Sikkim mountains" loading="lazy"><span>Gangtok &amp; Sikkim</span></div>
+<div class="mini"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Mahabodhi_Temple_-_Bodh_Gaya.jpg" alt="Mahabodhi Temple, Bodh Gaya" loading="lazy"><span>Bodh Gaya</span></div>
+<div class="mini"><img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1600&auto=format&fit=crop" alt="Taj Mahal in Agra" loading="lazy"><span>Agra &amp; Taj Mahal</span></div>
+<div class="mini"><img src="https://images.unsplash.com/photo-1506015391300-4802dc74de2e?q=80&w=1600&auto=format&fit=crop" alt="Scenic mountain travel" loading="lazy"><span>Mountain Tours</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="container contact-grid">
+<div class="contact-info">
+<div class="eyebrow">PLAN YOUR JOURNEY</div>
+<h2>Let's plan your next trip.</h2>
+<p>Share your travel details and we will send vehicle and trip options on WhatsApp.</p>
+<div class="contact-box">
+<div>👤 <b>Sanjiv Singh</b></div>
+<div>📞 <a href="tel:+919939995360">+91 99399 95360</a> / <a href="tel:+919065671630">+91 90656 71630</a></div>
+<div>📧 <a href="mailto:sariputratours@gmail.com">sariputratours@gmail.com</a></div>
+<div>💬 <a href="https://wa.me/919939995360" target="_blank" rel="noopener">WhatsApp Chat</a></div>
+<div>📍 Bodh Gaya, Bihar, India</div>
+</div>
+
+<div class="social-grid">
+<a class="social-btn" href="https://facebook.com" target="_blank" rel="noopener">📘 Facebook</a>
+<a class="social-btn" href="https://instagram.com/sariputratours" target="_blank" rel="noopener">📸 @sariputratours</a>
+<a class="social-btn" href="https://x.com/sariputratours" target="_blank" rel="noopener">🐦 @sariputratours</a>
+<a class="social-btn" href="https://youtube.com/@sariputratours" target="_blank" rel="noopener">▶️ YouTube</a>
+<a class="social-btn" href="https://linkedin.com" target="_blank" rel="noopener">💼 LinkedIn</a>
+<a class="social-btn" href="https://google.com" target="_blank" rel="noopener">📍 Google Profile</a>
+<a class="social-btn" href="https://pinterest.com/sariputratours" target="_blank" rel="noopener">📌 Pinterest</a>
+<a class="social-btn" href="https://tiktok.com/@sariputratours" target="_blank" rel="noopener">🎵 TikTok</a>
+<a class="social-btn" href="https://threads.net/@sariputratours" target="_blank" rel="noopener">🧵 Threads</a>
+</div>
+</div>
+
+<form class="form" onsubmit="sendWhatsApp(event)">
+<div class="form-grid">
+<input id="name" placeholder="Your name" required>
+<input id="phone" placeholder="Mobile number" inputmode="tel" required>
+<input id="date" type="date">
+<select id="vehicle">
+<option>Any vehicle</option>
+<option>7 Seater Family Vehicle</option>
+<option>17 Seater Force Urbania</option>
+<option>17 Seater Tempo Traveller</option>
+<option>35 Seater Mini Bus</option>
+<option>45 Seater Tourist Bus</option>
+<option>49 Seater Premium Bus</option>
+</select>
+<input class="full" id="destination" placeholder="Destination / route" required>
+<input id="passengers" type="number" min="1" placeholder="Passengers">
+<input id="days" type="number" min="1" placeholder="Trip days">
+<textarea class="full" id="message" placeholder="Pickup location, return date, hotel needs, sightseeing or other requirements"></textarea>
+</div>
+<div class="form-actions"><button class="btn primary" type="submit">Send Enquiry on WhatsApp</button><button class="btn secondary" type="reset">Clear</button></div>
+<div class="form-note">Your enquiry is prepared in WhatsApp. No payment is taken on this website.</div>
+</form>
+</div>
+</section>
+</main>
+
+<a class="wa" href="https://wa.me/919939995360?text=Hello%20Sariputra%20Tour%20%26%20Holidays%2C%20I%20want%20to%20book%20a%20vehicle." target="_blank" rel="noopener">💬 WhatsApp</a>
+
+<div class="ai">
+<button class="ai-toggle" type="button" onclick="toggleAI()">🤖 AI Trip Assistant</button>
+<div class="ai-panel" id="aiPanel">
+<div class="ai-head"><strong>AI Trip Enquiry Assistant</strong><span>Quickly prepare your enquiry for WhatsApp</span></div>
+<div class="ai-body">
+<label for="aiDestination">Where do you want to go?</label>
+<input id="aiDestination" placeholder="e.g. Bodh Gaya to Varanasi">
+<label for="aiPeople">How many travellers?</label>
+<input id="aiPeople" type="number" min="1" placeholder="e.g. 12">
+<label for="aiVehicle">Vehicle preference</label>
+<select id="aiVehicle">
+<option>Any vehicle</option>
+<option>7 Seater Family Vehicle</option>
+<option>17 Seater Force Urbania</option>
+<option>17 Seater Tempo Traveller</option>
+<option>35 Seater Mini Bus</option>
+<option>45 Seater Tourist Bus</option>
+<option>49 Seater Premium Bus</option>
+</select>
+<label for="aiDays">Number of days</label>
+<input id="aiDays" type="number" min="1" placeholder="e.g. 3">
+<button class="btn primary" style="width:100%;margin-top:12px" type="button" onclick="prepareAI()">Prepare WhatsApp Enquiry</button>
+<div class="ai-result" id="aiResult"></div>
+</div>
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div class="footer">
+<span>© <span id="year"></span> Sariputra Tour &amp; Holidays. All rights reserved.</span>
+<span>Bodh Gaya, Bihar • +91 99399 95360 / +91 90656 71630 • sariputratours@gmail.com</span>
+</div>
+<div class="footer-social">
+<b>Connect with us:</b>
+<a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a> • 
+<a href="https://instagram.com/sariputratours" target="_blank" rel="noopener">Instagram (@sariputratours)</a> • 
+<a href="https://x.com/sariputratours" target="_blank" rel="noopener">X / Twitter</a> • 
+<a href="https://youtube.com/@sariputratours" target="_blank" rel="noopener">YouTube</a> • 
+<a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a> • 
+<a href="https://google.com" target="_blank" rel="noopener">Google Business</a> • 
+<a href="https://pinterest.com/sariputratours" target="_blank" rel="noopener">Pinterest</a> • 
+<a href="https://tiktok.com/@sariputratours" target="_blank" rel="noopener">TikTok</a> • 
+<a href="https://threads.net/@sariputratours" target="_blank" rel="noopener">Threads</a>
+</div>
+<div class="credit">Mahabodhi Temple photo: WeeKeeEditor / Wikimedia Commons, licensed CC BY-SA 4.0. <a href="https://commons.wikimedia.org/wiki/File:Mahabodhi_Temple_-_Bodh_Gaya.jpg" target="_blank" rel="noopener">View source and license</a>.</div>
+</div>
+</footer>
+
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+
+function sendWhatsApp(e){
+  e.preventDefault();
+  const n=document.getElementById("name").value.trim();
+  const p=document.getElementById("phone").value.trim();
+  const d=document.getElementById("date").value||"Not decided";
+  const v=document.getElementById("vehicle").value;
+  const dest=document.getElementById("destination").value.trim();
+  const passengers=document.getElementById("passengers").value||"Not specified";
+  const days=document.getElementById("days").value||"Not specified";
+  const m=document.getElementById("message").value.trim()||"No additional requirements";
+  const text=[
+    "Hello Sariputra Tour & Holidays,",
+    "",
+    "I want a travel quotation.",
+    "Name: "+n,
+    "Mobile: "+p,
+    "Travel date: "+d,
+    "Vehicle: "+v,
+    "Destination/Route: "+dest,
+    "Passengers: "+passengers,
+    "Trip days: "+days,
+    "Requirements: "+m
+  ].join("\n");
+  window.open("https://wa.me/919939995360?text="+encodeURIComponent(text),"_blank","noopener");
+}
+
+function toggleAI(){document.getElementById("aiPanel").classList.toggle("open");}
+
+function prepareAI(){
+  const dest=document.getElementById("aiDestination").value.trim();
+  const people=document.getElementById("aiPeople").value||"Not specified";
+  const vehicle=document.getElementById("aiVehicle").value;
+  const days=document.getElementById("aiDays").value||"Not specified";
+  const result=document.getElementById("aiResult");
+  if(!dest){result.style.display="block";result.textContent="Please enter your destination first.";return;}
+  const text="Hello Sariputra Tour & Holidays,%0A%0AI need a travel quotation.%0A%0ADestination/Route: "+encodeURIComponent(dest)+"%0APassengers: "+encodeURIComponent(people)+"%0AVehicle: "+encodeURIComponent(vehicle)+"%0ATrip days: "+encodeURIComponent(days);
+  result.style.display="block";
+  result.innerHTML="Your enquiry is ready. Opening WhatsApp...";
+  setTimeout(()=>window.open("https://wa.me/919939995360?text="+text,"_blank","noopener"),350);
+}
+</script>
+</body>
+</html>

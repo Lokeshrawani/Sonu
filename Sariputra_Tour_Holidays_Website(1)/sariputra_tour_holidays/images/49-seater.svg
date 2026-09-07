@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
-<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#dbeafe"/><stop offset="1" stop-color="#f8fafc"/></linearGradient></defs>
-<rect width="900" height="600" fill="url(#bg)"/><circle cx="700" cy="110" r="65" fill="#ffd54f"/>
-<path d="M0 420 Q250 330 500 420 T900 400 V600 H0Z" fill="#9bb58a"/>
-<rect x="120" y="210" width="650" height="210" rx="30" fill="#fff" stroke="#b71c1c" stroke-width="10"/>
-<rect x="155" y="245" width="570" height="92" rx="15" fill="#1f2937"/>
-<g fill="#9bd4e7"><rect x="175" y="260" width="75" height="60" rx="8"/><rect x="265" y="260" width="75" height="60" rx="8"/><rect x="355" y="260" width="75" height="60" rx="8"/><rect x="445" y="260" width="75" height="60" rx="8"/><rect x="535" y="260" width="75" height="60" rx="8"/><rect x="625" y="260" width="75" height="60" rx="8"/></g>
-<rect x="145" y="345" width="600" height="18" fill="#b71c1c"/><circle cx="235" cy="435" r="55" fill="#111"/><circle cx="235" cy="435" r="27" fill="#bbb"/><circle cx="650" cy="435" r="55" fill="#111"/><circle cx="650" cy="435" r="27" fill="#bbb"/>
-<text x="450" y="395" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#b71c1c">49 SEATER PREMIUM COACH</text></svg>

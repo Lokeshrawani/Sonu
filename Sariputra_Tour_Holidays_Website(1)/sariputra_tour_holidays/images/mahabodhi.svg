@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650">
-<defs><linearGradient id="s" x2="0" y2="1"><stop stop-color="#8ed0ff"/><stop offset="1" stop-color="#fef3c7"/></linearGradient></defs>
-<rect width="1000" height="650" fill="url(#s)"/><circle cx="160" cy="110" r="60" fill="#ffd54f"/>
-<rect y="500" width="1000" height="150" fill="#d9b58a"/>
-<path d="M500 110 L650 500 H350 Z" fill="#d7a95b" stroke="#8b5e34" stroke-width="7"/>
-<path d="M500 70 L535 115 H465 Z M500 35 L520 70 H480 Z" fill="#8b5e34"/>
-<g fill="#b7833f"><rect x="405" y="360" width="190" height="140"/><rect x="375" y="425" width="250" height="75"/></g>
-<path d="M120 500 Q160 260 250 500" fill="#4f7f4b"/><path d="M850 500 Q810 260 720 500" fill="#4f7f4b"/>
-<text x="500" y="580" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#5b3a20">MAHABODHI TEMPLE • BODH GAYA</text></svg>

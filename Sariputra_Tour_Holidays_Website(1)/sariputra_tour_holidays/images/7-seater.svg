@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
-<rect width="900" height="600" fill="#f3e8ff"/><path d="M0 445 Q230 350 460 440 T900 420 V600 H0Z" fill="#8ba67b"/>
-<rect x="170" y="285" width="560" height="150" rx="48" fill="#fff" stroke="#b71c1c" stroke-width="10"/>
-<path d="M250 290 L330 205 H590 L665 290Z" fill="#fff" stroke="#b71c1c" stroke-width="10"/>
-<path d="M350 225 H570 L615 285 H305Z" fill="#24303d"/><rect x="330" y="305" width="240" height="55" rx="10" fill="#9ed4e6"/>
-<circle cx="275" cy="450" r="55" fill="#111"/><circle cx="275" cy="450" r="27" fill="#aaa"/><circle cx="625" cy="450" r="55" fill="#111"/><circle cx="625" cy="450" r="27" fill="#aaa"/>
-<text x="450" y="395" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#b71c1c">7 SEATER INNOVA CRYSTA</text></svg>

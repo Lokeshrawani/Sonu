@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
-<rect width="900" height="600" fill="#fef3c7"/><path d="M0 430 Q250 320 500 430 T900 410 V600 H0Z" fill="#86a96f"/>
-<rect x="145" y="205" width="610" height="225" rx="42" fill="#f9fafb" stroke="#b71c1c" stroke-width="10"/>
-<path d="M185 240 H715 Q735 240 735 260 V330 H185Z" fill="#253041"/>
-<g fill="#b7e0ec"><rect x="205" y="255" width="75" height="55" rx="8"/><rect x="295" y="255" width="75" height="55" rx="8"/><rect x="385" y="255" width="75" height="55" rx="8"/><rect x="475" y="255" width="75" height="55" rx="8"/><rect x="565" y="255" width="75" height="55" rx="8"/></g>
-<rect x="170" y="340" width="560" height="18" fill="#b71c1c"/><circle cx="260" cy="445" r="55" fill="#111"/><circle cx="260" cy="445" r="27" fill="#aaa"/><circle cx="640" cy="445" r="55" fill="#111"/><circle cx="640" cy="445" r="27" fill="#aaa"/>
-<text x="450" y="395" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#b71c1c">26 SEATER TEMPO TRAVELLER</text></svg>

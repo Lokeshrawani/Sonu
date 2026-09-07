@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<rect width="900" height="600" fill="#e0f2fe"/><circle cx="720" cy="120" r="70" fill="#ffd54f"/><path d="M0 430 L240 310 430 430 650 300 900 430 V600 H0Z" fill="#759b78"/>
+<rect x="190" y="205" width="520" height="225" rx="42" fill="#fff" stroke="#b71c1c" stroke-width="10"/>
+<rect x="225" y="240" width="450" height="92" rx="18" fill="#24303d"/>
+<g fill="#b7e0ec"><rect x="245" y="255" width="75" height="55" rx="8"/><rect x="335" y="255" width="75" height="55" rx="8"/><rect x="425" y="255" width="75" height="55" rx="8"/><rect x="515" y="255" width="75" height="55" rx="8"/></g>
+<rect x="215" y="345" width="470" height="18" fill="#b71c1c"/><circle cx="290" cy="445" r="55" fill="#111"/><circle cx="290" cy="445" r="27" fill="#aaa"/><circle cx="610" cy="445" r="55" fill="#111"/><circle cx="610" cy="445" r="27" fill="#aaa"/>
+<text x="450" y="397" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#b71c1c">17 SEATER TEMPO TRAVELLER</text></svg>

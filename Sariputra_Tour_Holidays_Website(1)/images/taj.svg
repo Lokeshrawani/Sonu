@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650">
+<rect width="1000" height="650" fill="#dbeafe"/><circle cx="170" cy="115" r="62" fill="#ffd54f"/><rect y="530" width="1000" height="120" fill="#91b8d1"/>
+<rect x="350" y="285" width="300" height="245" fill="#f8f1df"/><path d="M500 110 C430 130 405 205 405 285 H595 C595 205 570 130 500 110Z" fill="#f8f1df"/>
+<path d="M500 75 L530 115 H470 Z" fill="#caa75a"/>
+<g fill="#f8f1df" stroke="#d6c9a9" stroke-width="6"><rect x="270" y="250" width="55" height="280"/><rect x="675" y="250" width="55" height="280"/><rect x="220" y="300" width="40" height="230"/><rect x="740" y="300" width="40" height="230"/></g>
+<rect x="465" y="380" width="70" height="150" fill="#d6c9a9"/><text x="500" y="600" text-anchor="middle" font-family="Arial" font-size="38" font-weight="700" fill="#3f3f46">TAJ MAHAL • AGRA</text></svg>
